@@ -184,7 +184,7 @@ document.addEventListener('DOMContentLoaded', function() {
         } else if (textInputValueLowerCase == "netflix") { 
           openLinkInNewWindow('http://' + textInputValueLowerCase + '.com');
           addTextToResults("<i>The URL for " + "<b>" + textInputValue + "</b>" + " should be opened now.</i>");
-        }else if (textInputValueLowerCase == "hulu") { 
+        } else if (textInputValueLowerCase == "hulu") { 
           openLinkInNewWindow('http://' + textInputValueLowerCase + '.com');
           addTextToResults("<i>The URL for " + "<b>" + textInputValue + "</b>" + " should be opened now.</i>");
         } else if (textInputValueLowerCase == "amazon") { 
