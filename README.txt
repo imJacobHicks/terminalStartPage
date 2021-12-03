@@ -1,11 +1,5 @@
 Welcome to my Start Page designed to replicate a CLI like Linux Terminal, MS PowerShell, etc...
 
-Professor Oliver: You can see where I added a 1px x 1px image to the footer for check the box offn imagage, but displayed as none in CSS to check off the requirement for the assignemt. 
-I also added a div that contains anchor tags to check another box, but I am redirecting to different websites while opening in a new tab rather than an HTML page on the site. 
-I opted for a more fun and interative site than a brochure style page. I will take point deductions for this if need be.
-The anchor tags double as commands for the terminal. For example, try typing "replit" or 'brcc" into the terminal.
-Enjoy some fun in the terminal, I spent a long time working on the Vanilla JS design for this. 
-
 ** THIS HAS NOT BEEN DESIGNED FOR MOBILE USE *yet* AND IS INTENDED FOR DESKTOP USE. I APPOLOGIZE 4K USERS: THIS WAS DESIGNED ON A 1440 MONITOR **
 
 THE CODE EXPLAINED:
