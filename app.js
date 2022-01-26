@@ -99,12 +99,6 @@ document.addEventListener('DOMContentLoaded', function() {
           clearInput();
           addTextToResults("Hello, welcome to my start page. Type help for some keywords to use.");
           break;
-   
-        case "what the":
-        case "wtf":
-          clearInput();
-          addTextToResults("WHAT THE F***... Sometimes it has to be said...");
-          break;
 
         // assisting user replies 
         case "youtube":
@@ -168,9 +162,6 @@ document.addEventListener('DOMContentLoaded', function() {
           addTextToResults("<i>The URL for " + "<b>" + textInputValue + "</b>" + " should be opened now.</i>");
         } else if (textInputValueLowerCase == "stackoverflow") { 
           openLinkInNewWindow('http://' + textInputValueLowerCase + '.com');
-          addTextToResults("<i>The URL for " + "<b>" + textInputValue + "</b>" + " should be opened now.</i>");
-        } else if (textInputValueLowerCase == "brcc") { 
-          openLinkInNewWindow('http://' + textInputValueLowerCase + '.edu');
           addTextToResults("<i>The URL for " + "<b>" + textInputValue + "</b>" + " should be opened now.</i>");
         } else if (textInputValueLowerCase == "github") { 
           openLinkInNewWindow('http://' + textInputValueLowerCase + '.com');
