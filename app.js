@@ -178,8 +178,8 @@ document.addEventListener('DOMContentLoaded', function() {
         } else if (textInputValueLowerCase == "replit") { 
           openLinkInNewWindow('http://' + textInputValueLowerCase + '.com');
           addTextToResults("<i>The URL for " + "<b>" + textInputValue + "</b>" + " should be opened now.</i>");
-        } else if (textInputValueLowerCase == "replit") { 
-          openLinkInNewWindow('http://' + textInputValueLowerCase + '.com');
+        } else if (textInputValueLowerCase == "freecodecamp") { 
+          openLinkInNewWindow('http://' + textInputValueLowerCase + '.org');
           addTextToResults("<i>The URL for " + "<b>" + textInputValue + "</b>" + " should be opened now.</i>");
         } else if (textInputValueLowerCase == "reddit") { 
           openLinkInNewWindow('http://' + textInputValueLowerCase + '.com');
