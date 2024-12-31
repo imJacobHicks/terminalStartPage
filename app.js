@@ -170,7 +170,7 @@ document.addEventListener('DOMContentLoaded', function() {
           openLinkInNewWindow('http://' + textInputValueLowerCase + '.com');
           addTextToResults("<i>The URL for " + "<b>" + textInputValue + "</b>" + " should be opened now.</i>");
         } else if (textInputValueLowerCase == "SNHU") { 
-          openLinkInNewWindow('http://' + textInputValueLowerCase + '.edu');
+          openLinkInNewWindow('http://my.' + textInputValueLowerCase + '.edu');
           addTextToResults("<i>The URL for " + "<b>" + textInputValue + "</b>" + " should be opened now.</i>");
         } else if (textInputValueLowerCase == "github") { 
           openLinkInNewWindow('http://' + textInputValueLowerCase + '.com/imJacobHicks');
