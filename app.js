@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', function() {
         } else if (textInputValueLowerCase == "stackoverflow") { 
           openLinkInNewWindow('http://' + textInputValueLowerCase + '.com');
           addTextToResults("<i>The URL for " + "<b>" + textInputValue + "</b>" + " should be opened now.</i>");
-        } else if (textInputValueLowerCase == "brcc") { 
+        } else if (textInputValueLowerCase == "SNHU") { 
           openLinkInNewWindow('http://' + textInputValueLowerCase + '.edu');
           addTextToResults("<i>The URL for " + "<b>" + textInputValue + "</b>" + " should be opened now.</i>");
         } else if (textInputValueLowerCase == "github") { 
